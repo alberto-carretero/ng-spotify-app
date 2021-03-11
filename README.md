@@ -26,4 +26,4 @@ Then, open `http://localhost:8888` in a browser.
 
     $ ng serve
 
-Then, open `http://localhost:4200` in a browser.
+Once logged in from the server application, the page redirects to the Angular project: `http://localhost:4200`
