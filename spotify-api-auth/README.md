@@ -1,6 +1,6 @@
 # Spotify Accounts Authentication Examples
 
-This project contains basic demos showing the different OAuth 2.0 flows for [authenticating against the Spotify Web API](https://developer.spotify.com/web-api/authorization-guide/).
+This project contains basic demo showing the different OAuth 2.0 flows for [authenticating against the Spotify Web API](https://developer.spotify.com/web-api/authorization-guide/).
 
 These examples cover:
 
@@ -8,7 +8,7 @@ These examples cover:
 
 ## Installation
 
-These examples run on Node.js. On [its website](http://www.nodejs.org/download/) you can find instructions on how to install it.
+These examples run on Node.js.
 
 Once installed, clone the repository and install its dependencies running:
 
@@ -25,7 +25,7 @@ To do so, go to [your Spotify for Developers Dashboard](https://beta.developer.s
 Once you have created your app, replace the `client_id`, `redirect_uri` and `client_secret` in the examples with the ones you get from My Applications.
 
 ## Running the examples
-In order to run the different examples, open the folder with the name of the flow you want to try out, and run its `app.js` file. For instance, to run the Authorization Code example do:
+In order to run the server project, open the folder and run its `app.js` file. For instance:
 
     $ cd authorization_code
     $ node app.js
