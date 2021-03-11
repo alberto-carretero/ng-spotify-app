@@ -1,0 +1,7 @@
+<div class="search-container">
+  <form [formGroup]="searchForm">
+    <div class="form-group">
+      <input text="type" name="search" formControlName="search" (keyup)="searchMusic()" placeholder="Search {{ searchType }}...">
+    </div>
+  </form>
+</div>

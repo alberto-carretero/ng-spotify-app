@@ -1,0 +1,14 @@
+[
+    {
+        "name": "Albums",
+        "redirectTo": "album"
+    },
+    {
+        "name": "Artists",
+        "redirectTo": "artist"
+    },
+    {
+        "name": "Tracks",
+        "redirectTo": "track"
+    }
+]

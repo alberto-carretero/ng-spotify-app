@@ -1,0 +1,13 @@
+<div class="search-info-container">
+  <ng-container *ngFor="let item of data">
+    <div class="item" *ngIf="item.images.length > 0" >
+      <img *ngIf="item.images.length > 0" src="{{ item.images[1].url }}" width="200" height="200" />
+      <div class="item-name">
+        Name: {{ item.name }}
+      </div>
+      <div class="item-type">
+        Type: {{ item.type }}
+      </div>
+    </div>
+  </ng-container>  
+</div>

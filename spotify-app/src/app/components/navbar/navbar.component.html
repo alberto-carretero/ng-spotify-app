@@ -1,0 +1,4 @@
+<div class="navbar-container">
+  <img src="/assets/logo/logo_reverse.png" />
+  <a *ngFor="let item of navBarOptions | async" [routerLink]="item.redirectTo">{{ item.name }}</a>
+</div>
